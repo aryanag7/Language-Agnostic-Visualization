@@ -92,7 +92,6 @@ The application successfully supports:
 
 ## 🚀 Future Roadmap
 
-### Expanding Capabilities
 - [ ] Additional Language Support
   - D3.js
   - Julia
@@ -102,12 +101,4 @@ The application successfully supports:
 - [ ] Enhanced Export Options
 
 
-<div align="center">
 
----
-
-<h3>📫 Questions or Suggestions?</h3>
-
-[Open an Issue](https://github.com/yourusername/data-viz-hub/issues) | [Contact Support](mailto:support@example.com)
-
-</div>
