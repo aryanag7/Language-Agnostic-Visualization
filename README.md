@@ -1,0 +1,116 @@
+# Data Visualization Hub 📊 
+
+<div align="center">
+
+![Data Visualization](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000)
+
+*A powerful web application for creating stunning visualizations in Python and R*
+
+[![Made with Angular](https://img.shields.io/badge/Made%20with-Angular-DD0031?style=flat-square&logo=angular)](https://angular.io/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org/)
+
+</div>
+
+## ✨ Overview
+
+Transform your data into compelling visualizations with our language-agnostic platform. Whether you prefer Python or R, create interactive, static, or 3D visualizations with ease.
+
+## 🛠️ Tech Stack
+
+<table>
+<tr>
+<td>
+
+### Frontend
+- **Angular 18+** - Modern web framework
+- **TypeScript** - Type-safe development
+- **Custom Components**
+  - Language Selector
+  - Code Editor
+  - Visualization Renderer
+- **Responsive Design**
+
+</td>
+<td>
+
+### Backend
+- **Node.js + Express**
+- **Python Environment**
+  - `matplotlib`
+  - `plotly`
+- **R Integration**
+  - `ggplot2`
+  - `plotly`
+  - `htmlwidgets`
+
+</td>
+</tr>
+</table>
+
+## 🎯 Key Features
+
+- **Multi-Language Support**
+  - Python & R integration
+  - Extensible architecture
+- **Visualization Types**
+  - Static Images (PNG)
+  - Interactive Charts (HTML)
+  - 3D Visualizations
+- **User Experience**
+  - Real-time Preview
+  - Download Options
+  - Responsive Interface
+
+## 🔍 Technical Challenges & Solutions
+
+### 1. HTML Chart Rendering
+> **Challenge**: Interactive HTML plots weren't rendering in Angular  
+> **Solution**: Implemented secure HTML embedding using `DomSanitizer` and `iframe`
+
+### 2. Script Execution Safety
+> **Challenge**: Server instability with invalid code  
+> **Solution**: Robust error handling with detailed user feedback
+
+### 3. R Plot Generation
+> **Challenge**: Server restarts during R visualization generation  
+> **Solution**: Configured nodemon to ignore temporary directories
+
+### 4. Responsive Design
+> **Challenge**: UI inconsistencies across devices  
+> **Solution**: Implemented fluid layouts with modern CSS
+
+## 🌟 Current Status
+
+The application successfully supports:
+
+- ✅ Static Visualizations
+- ✅ Interactive Plots
+- ✅ 3D Visualizations
+- ✅ Cross-Language Support
+
+## 🚀 Future Roadmap
+
+### Expanding Capabilities
+- [ ] Additional Language Support
+  - D3.js
+  - Julia
+  - MATLAB
+- [ ] Template Gallery
+- [ ] Real-time Collaboration
+- [ ] Enhanced Export Options
+
+### Performance Optimization
+- [ ] Caching System
+- [ ] Lazy Loading
+- [ ] Worker Threads
+
+<div align="center">
+
+---
+
+<h3>📫 Questions or Suggestions?</h3>
+
+[Open an Issue](https://github.com/yourusername/data-viz-hub/issues) | [Contact Support](mailto:support@example.com)
+
+</div>
