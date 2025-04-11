@@ -1,0 +1,18 @@
+/* === Select Input === */
+#language{
+    width: 100%;
+    min-width: 300px; 
+    padding: 0.75rem;
+    letter-spacing: 0.2px;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    color: #374151;
+    background-color: white;
+    transition: all 0.2s;
+}
+#language:focus {
+    outline: none;
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
