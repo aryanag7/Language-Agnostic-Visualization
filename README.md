@@ -1,8 +1,9 @@
-# Data Visualization Hub 📊 
+# Language Agnostic Visualization Web Application 📊 
 
 <div align="center">
 
-![Data Visualization](https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000)
+<img width="1406" alt="image" src="https://github.com/user-attachments/assets/68330110-99c6-4513-9f22-64ef615639b6" />
+
 
 *A powerful web application for creating stunning visualizations in Python and R*
 
@@ -69,12 +70,12 @@ Transform your data into compelling visualizations with our language-agnostic pl
 > **Solution**: Implemented secure HTML embedding using `DomSanitizer` and `iframe`
 
 ### 2. Script Execution Safety
-> **Challenge**: Server instability with invalid code  
-> **Solution**: Robust error handling with detailed user feedback
+> **Challenge**: Backend would crash or hang on invalid scripts 
+> **Solution**:  Wrapped script execution in `try/catch` with detailed error handling and user feedback
 
 ### 3. R Plot Generation
 > **Challenge**: Server restarts during R visualization generation  
-> **Solution**: Configured nodemon to ignore temporary directories
+> **Solution**: Configured nodemon to ignore the tmp/ folder using a nodemon.json file. This prevented auto-restarts caused by file writes in that directory
 
 ### 4. Responsive Design
 > **Challenge**: UI inconsistencies across devices  
@@ -100,10 +101,6 @@ The application successfully supports:
 - [ ] Real-time Collaboration
 - [ ] Enhanced Export Options
 
-### Performance Optimization
-- [ ] Caching System
-- [ ] Lazy Loading
-- [ ] Worker Threads
 
 <div align="center">
 
